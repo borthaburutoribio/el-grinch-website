@@ -289,6 +289,31 @@ a { text-decoration: none; color: inherit; }
   color: #fff;
 }
 
+/* TikTok */
+.tiktok {
+  padding: 70px 0;
+  text-align: center;
+  background: #fff;
+}
+.tiktok h2 {
+  font-size: 2rem;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.tiktok-sub {
+  color: var(--text-soft);
+  margin-bottom: 32px;
+}
+.tiktok-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.tiktok-cta {
+  margin-top: 32px;
+}
+
 /* Resenas */
 .resenas {
   padding: 70px 0;
