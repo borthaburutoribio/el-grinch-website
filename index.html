@@ -3,22 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>El Grinch Librería Boutique | Papelería, arte y regalos únicos</title>
-<meta name="description" content="Librería boutique en Juncal 1267, CABA. Papelería, arte, regalos y accesorios con personalidad. 5.0★ en Google.">
+<title>El Grinch Librería Boutique | Librería creativa en Juncal 1267, CABA</title>
+<meta name="description" content="Librería boutique creativa en Juncal 1267, CABA. Artículos de librería comercial y escolar, regalería, papelería y mucho más. 5.0★ en Google.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
+
+<div class="promo-bar">
+  <strong>30% OFF</strong> en cartucheras Mooving, mochilas y carpetas línea Mooving — efectivo, transferencia o tarjeta de crédito en 1 pago.
+  <span class="promo-note">(las promos cambian todos los meses)</span>
+</div>
 
 <header class="site-header">
   <div class="container header-inner">
     <a href="#inicio" class="brand">
       <img src="assets/img/logo.jpg" alt="El Grinch Librería Boutique" class="brand-logo">
       <span class="brand-name">El Grinch <small>Librería Boutique</small></span>
+      <svg class="grinch-peek" width="34" height="20" viewBox="0 0 34 20" aria-hidden="true">
+        <ellipse cx="9" cy="12" rx="6" ry="7" fill="#1b4332"/>
+        <ellipse cx="25" cy="12" rx="6" ry="7" fill="#1b4332"/>
+        <ellipse cx="10" cy="13" rx="2.4" ry="3" fill="#faf6ee"/>
+        <ellipse cx="26" cy="13" rx="2.4" ry="3" fill="#faf6ee"/>
+        <circle cx="10.5" cy="13" r="1.1" fill="#1b4332"/>
+        <circle cx="26.5" cy="13" r="1.1" fill="#1b4332"/>
+        <path d="M4 7 Q9 2 14 7" stroke="#1b4332" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M20 7 Q25 2 30 7" stroke="#1b4332" stroke-width="2" fill="none" stroke-linecap="round"/>
+      </svg>
     </a>
     <nav class="nav" id="nav">
       <a href="#categorias">Categorías</a>
+      <a href="#galeria">Galería</a>
       <a href="#nosotros">Nosotros</a>
       <a href="#tiktok">TikTok</a>
       <a href="#resenas">Reseñas</a>
@@ -39,8 +56,9 @@
     </div>
     <div class="hero-content container">
       <span class="badge-rating">★ 5.0 · 7 reseñas en Google</span>
-      <h1>Librería Boutique con personalidad</h1>
-      <p class="hero-tagline">Papelería, arte y regalos únicos. Todo lo que no encontrás en otro lado.</p>
+      <span class="eyebrow">Librería boutique creativa</span>
+      <h1>Papelería, arte y regalos con personalidad</h1>
+      <p class="hero-tagline">Artículos de librería comercial y escolar, regalería, papelería y mucho más — todo lo que no encontrás en otro lado.</p>
       <div class="hero-actions">
         <a href="#categorias" class="btn btn-primary">Explorar la tienda</a>
         <a href="https://wa.me/5491169589332?text=Hola!%20Vi%20la%20web%20de%20El%20Grinch%20y%20quer%C3%ADa%20consultar" class="btn btn-outline" target="_blank" rel="noopener">Consultar por WhatsApp</a>
@@ -50,24 +68,52 @@
 
   <section class="categorias" id="categorias">
     <div class="container">
-      <h2>Encontrá lo que buscás</h2>
+      <div class="section-head">
+        <span class="eyebrow">Un poco de todo</span>
+        <h2>Encontrá lo que buscás</h2>
+        <p>Artículos de librería comercial y escolar, regalería, papelería y mucho más.</p>
+      </div>
       <div class="cat-grid">
-        <div class="cat-card cat-green">
-          <span class="cat-icon">✏️</span>
+        <div class="cat-card">
+          <div class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
           <h3>Papelería &amp; Kawaii</h3>
+          <p>Escolar, comercial y esos detalles que no se ven en otro lado.</p>
         </div>
-        <div class="cat-card cat-pink">
-          <span class="cat-icon">🎨</span>
+        <div class="cat-card">
+          <div class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 1 0 9 9c0-1-1-2-2.5-2h-1a2 2 0 0 1-2-2v-.5c0-1.4 1-2.5 2-3"/><circle cx="8.5" cy="10.5" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="15.5" cy="10.5" r="1"/></svg></div>
           <h3>Arte &amp; Diseño</h3>
+          <p>Giotto, témperas, acuarelas y todo para crear.</p>
         </div>
-        <div class="cat-card cat-orange">
-          <span class="cat-icon">🎁</span>
+        <div class="cat-card">
+          <div class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="16" height="12" rx="1.5"/><path d="M4 12h16M12 8v12M9 8c-2-1-3-4 0-4s2 3 0 4ZM15 8c2-1 3-4 0-4s-2 3 0 4Z"/></svg></div>
           <h3>Regalos &amp; Botellas</h3>
+          <p>Regalería para cualquier ocasión, elegida con onda.</p>
         </div>
-        <div class="cat-card cat-yellow">
-          <span class="cat-icon">🎒</span>
+        <div class="cat-card">
+          <div class="cat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="9" width="14" height="11" rx="2"/><path d="M8 9V6a2.5 2.5 0 0 1 5 0v.5M13 9V6a2.5 2.5 0 0 1 5 0v.5" transform="translate(-1)"/><path d="M9 9V6.5a3 3 0 0 1 6 0V9"/></svg></div>
           <h3>Mochilas &amp; Cartucheras</h3>
+          <p>Snoopy, licencias y las marcas que buscan los chicos.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="galeria" id="galeria">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Un vistazo</span>
+        <h2>Lo que vas a encontrar</h2>
+        <p>Un poco de lo que tenemos en el local — se renueva todo el tiempo.</p>
+      </div>
+      <div class="galeria-grid">
+        <div class="galeria-item tall"><img src="assets/img/galeria/galeria-07.jpg" alt="Set de acuarelas Giotto en la librería" loading="lazy"></div>
+        <div class="galeria-item"><img src="assets/img/galeria/galeria-01.jpg" alt="Juguete didáctico Lovely Pet" loading="lazy"></div>
+        <div class="galeria-item"><img src="assets/img/galeria/galeria-04.jpg" alt="Crayones Giotto Be-bé" loading="lazy"></div>
+        <div class="galeria-item tall"><img src="assets/img/galeria/galeria-06.jpg" alt="Mochila Snoopy" loading="lazy"></div>
+        <div class="galeria-item"><img src="assets/img/galeria/galeria-02.jpg" alt="Set de papelería kawaii Kiruki" loading="lazy"></div>
+        <div class="galeria-item"><img src="assets/img/galeria/galeria-05.jpg" alt="Botella térmica con diseño ilustrado" loading="lazy"></div>
+        <div class="galeria-item"><img src="assets/img/galeria/galeria-03.jpg" alt="Juego de mesa Batalla Naval" loading="lazy"></div>
+        <div class="galeria-item"><img src="assets/img/galeria/galeria-08.jpg" alt="Artículos de la Selección Argentina" loading="lazy"></div>
       </div>
     </div>
   </section>
@@ -78,9 +124,11 @@
         <img src="assets/img/interior.png" alt="Interior de El Grinch Librería Boutique, estanterías con productos" loading="lazy">
       </div>
       <div class="nosotros-content">
-        <h2>Sobre el local</h2>
-        <p>En Juncal 1267 armamos una librería boutique distinta: papelería, arte y regalos únicos, elegidos con onda y con la idea de que siempre encuentres algo que no viste en ningún otro lado.</p>
-        <p>Atención personalizada, productos que se renuevan seguido, y una estética que se nota desde la vidriera hasta el último estante.</p>
+        <span class="eyebrow">Sobre nosotros</span>
+        <h2>Un proyecto de familia</h2>
+        <p>El Grinch nació como un emprendimiento familiar, pensado en nuestros hijos —Cristiano, Marcus Alexander y Francesca—. Desde ahí armamos una librería boutique distinta: papelería, arte y regalos únicos, elegidos con onda y con la idea de que siempre encuentres algo que no viste en ningún otro lado.</p>
+        <p>Cada producto lo elegimos nosotros, uno por uno, con la misma atención que le pondríamos a algo para nuestra propia casa. Atención personalizada, novedades todo el tiempo, y una estética que se nota desde la vidriera hasta el último estante.</p>
+        <p class="nosotros-signature">— La familia detrás de El Grinch</p>
         <div class="social-stat">
           <strong>138</strong> seguidores · <strong>2.352</strong> me gusta
           <span class="social-note">Seguinos para ver las novedades primero</span>
@@ -95,8 +143,10 @@
 
   <section class="tiktok" id="tiktok">
     <div class="container">
-      <h2>Los más populares en TikTok</h2>
-      <p class="tiktok-sub">@el.grinch.libreria</p>
+      <div class="section-head">
+        <span class="eyebrow">@el.grinch.libreria</span>
+        <h2>Los más populares en TikTok</h2>
+      </div>
       <div class="tiktok-grid">
         <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@el.grinch.libreria/video/7536183346481696056" data-video-id="7536183346481696056" style="max-width: 325px;min-width: 260px;">
           <section><a target="_blank" title="@el.grinch.libreria" href="https://www.tiktok.com/@el.grinch.libreria?refer=embed">@el.grinch.libreria</a></section>
@@ -117,7 +167,10 @@
 
   <section class="resenas" id="resenas">
     <div class="container">
-      <h2>Lo que dicen quienes ya vinieron</h2>
+      <div class="section-head">
+        <span class="eyebrow">Google Reviews</span>
+        <h2>Lo que dicen quienes ya vinieron</h2>
+      </div>
       <div class="rating-summary">★★★★★ <span>5.0 sobre 7 reseñas en Google</span></div>
       <div class="reviews-grid">
         <blockquote class="review-card">
@@ -139,22 +192,25 @@
   <section class="ubicacion" id="ubicacion">
     <div class="container ubicacion-grid">
       <div class="ubicacion-info">
-        <h2>Cómo llegar</h2>
+        <span class="eyebrow">Cómo llegar</span>
+        <h2>Visitanos</h2>
         <ul class="info-list">
           <li><strong>Dirección:</strong> Juncal 1267, C1062 Cdad. Autónoma de Buenos Aires</li>
           <li><strong>Teléfono:</strong> <a href="tel:+541169589332">011 6958-9332</a></li>
           <li><strong>Horarios:</strong>
             <ul class="hours-list">
               <li><span>Lunes a viernes</span><span>10:00–19:00</span></li>
-              <li><span>Sábados</span><span>10:30–15:00</span></li>
+              <li><span>Sábados</span><span>10:00–18:00</span></li>
               <li><span>Domingos</span><span>Cerrado</span></li>
             </ul>
+            <span class="hours-note">Los feriados el horario puede variar, pero siempre abrimos.</span>
           </li>
         </ul>
         <div class="payments">
-          <span>Tarjetas de crédito</span>
-          <span>Tarjetas de débito</span>
-          <span>Pago contactless (NFC)</span>
+          <span>Tarjeta de crédito</span>
+          <span>Tarjeta de débito</span>
+          <span>Mercado Pago</span>
+          <span>3 cuotas sin interés</span>
         </div>
         <a href="https://wa.me/5491169589332?text=Hola!%20Vi%20la%20web%20de%20El%20Grinch%20y%20quer%C3%ADa%20consultar" class="btn btn-primary" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
       </div>
